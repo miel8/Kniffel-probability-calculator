@@ -34,7 +34,7 @@ def calculateaverage(numberlist:list): #Calculates the average value of all numb
 i = 0
 results = []
 avg = 0
-if input("Output during calculation[y/n]? ")=="y": #Outputs are given after each kniffel has been achieved    
+if input("Output during calculation (~25% Slower) [y/n]? ")=="y": #Outputs are given after each kniffel has been achieved    
     for i in range(0, int(input("Number of Kniffels: "))):
         result = returnNumberOfThrowsToKniffel() 
         results.append(result)
